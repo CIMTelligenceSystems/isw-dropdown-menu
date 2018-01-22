@@ -32,11 +32,12 @@ Implemented as an simple combination of paper-input, paper-listbox and iron-drop
 		<style>
 			:host {
 				display: block;
+				--paper-input-padding-bottom: 6px;
 			}
 
 			paper-input iron-icon {
 				color: var(--secondary-text-color);
-				padding-bottom: var(--padding-bottom-label);
+				padding-bottom: var(--paper-input-padding-bottom);
 			}
 
 			:host([readonly]) paper-input iron-icon {
